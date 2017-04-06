@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+    <xs:element name="Perkantoran">
+        <xs:complexType>
+            <xs:choice maxOccurs="unbounded">
+                <xs:element ref="alamat"/>
+                <xs:element ref="email"/>
+                <xs:element ref="gaji"/>
+                <xs:element ref="id_karyawan"/>
+                <xs:element ref="kantor"/>
+                <xs:element ref="nama_belakang"/>
+                <xs:element ref="nama_depan"/>
+                <xs:element ref="no_tlpn"/>
+                <xs:element ref="pekerjaan"/>
+                <xs:element ref="tanggal_perekrutan"/>
+            </xs:choice>
+            <xs:attribute name="Data" use="required" type="xs:NCName"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="email" type="xs:string"/>
+    <xs:element name="gaji">
+        <xs:complexType>
+            <xs:simpleContent>
+                <xs:extension base="xs:integer">
+                    <xs:attribute name="satuan" use="required" type="xs:NCName"/>
+                </xs:extension>
+            </xs:simpleContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="id_karyawan" type="xs:integer"/>
+    <xs:element name="kantor">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="alamat"/>
+            </xs:sequence>
+            <xs:attribute name="nama" use="required"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="nama_belakang" type="xs:NCName"/>
+    <xs:element name="nama_depan" type="xs:NCName"/>
+    <xs:element name="no_tlpn" type="xs:integer"/>
+    <xs:element name="pekerjaan" type="xs:string"/>
+    <xs:element name="tanggal_perekrutan" type="xs:string"/>
+    <xs:element name="alamat" type="xs:string"/>
+</xs:schema>
