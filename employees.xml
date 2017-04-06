@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Perkantoran Data="Karyawan" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Employees.xsd">
+	
+	<id_karyawan>101</id_karyawan>
+	<nama_depanTias</nama_depan>
+	<nama_belakang>Maulana</nama_belakang>
+	<alamat>Jakarta</alamat>
+	<email>tiasmaulanaa@gmail.com</email>
+	<no_tlpn>+6287863892031</no_tlpn>
+	<tanggal_perekrutan>5 September 2009</tanggal_perekrutan>
+	<pekerjaan>President</pekerjaan>
+	<gaji satuan="dolar">24000</gaji>
+	<kantor nama="PT.INDAH PERMANA">
+		<alamat>Jl. Gatot Subroto No.43</alamat>
+	</kantor>
+	
+	<id_karyawan>102</id_karyawan>
+	<nama_depan>Rikma</nama_depan>
+	<nama_belakang>Nurhadi</nama_belakang>
+	<alamat>Jakarta</alamat>
+	<email>rikma_nurhadi@gmail.com</email>
+	<no_tlpn>+6282113409971</no_tlpn>
+	<tanggal_perekrutan>11 Oktober 2009</tanggal_perekrutan>
+	<pekerjaan>Programmer</pekerjaan>
+	<gaji satuan="dolar">9000</gaji>
+	<kantor nama="PT.INDAH PERMANA">
+		<alamat>Jl. Gatot Subroto No.43</alamat>
+	</kantor>
+	
+	<id_karyawan>103</id_karyawan>
+	<nama_depan>Diki</nama_depan>
+	<nama_belakang>Wahyu</nama_belakang>
+	<alamat>Bandungbarat</alamat>
+	<email>dikiwahyu0@gmail.com</email>
+	<no_tlpn>+6282110293823</no_tlpn>
+	<tanggal_perekrutan>5 Januari 2010</tanggal_perekrutan>
+	<pekerjaan>Finance Manager</pekerjaan>
+	<gaji satuan="dolar">12008</gaji>
+	<kantor nama="PT.INDAH PERMANA">
+		<alamat>Jl. Gatot Subroto No.43</alamat>
+	</kantor>
+	
+	<id_karyawan>104</id_karyawan>
+	<nama_depan>Muhammad</nama_depan>
+	<nama_belakang>lutfhi</nama_belakang>
+	<alamat>Bandung</alamat>
+	<email>muhluthfi@gmail.com</email>
+	<no_tlpn>+6282329381719</no_tlpn>
+	<tanggal_perekrutan>3 Desember 2009</tanggal_perekrutan>
+	<pekerjaan>Sales Manager</pekerjaan>
+	<gaji satuan="dolar">11000</gaji>
+	<kantor nama="PT.INDAH PERMANA">
+		<alamat>Jl. Gatot Subroto No.43</alamat>
+	</kantor>
+	
+	<id_karyawan>105</id_karyawan>
+	<nama_depan>Angela</nama_depan>
+	<nama_belakang>caramoy</nama_belakang>
+	<alamat>Medan</alamat>
+	<email>Angela11@gmail.com</email>
+	<no_tlpn>+6285620001291</no_tlpn>
+	<tanggal_perekrutan>21 Februari 2010</tanggal_perekrutan>
+	<pekerjaan>Accounting</pekerjaan>
+	<gaji satuan="dolar">8200</gaji>
+	<kantor nama="PT.INDAH PERMANA">
+		<alamat>Jl. Gatot Subroto No.43</alamat>
+	</kantor>
+	
+</Perkantoran>
